@@ -2,6 +2,7 @@
   "id": "kannagi",
   "title": "Kannagi",
   "description": "A module for the Kannagi class.",
+  "url": "https://github.com/Kana-Kuroko/Kannagi-pf2e",
   "version": "1.0",
   "authors": [
     {"name": "Kana Kuroko"}
@@ -88,4 +89,6 @@
     }
   }
  }
+  "manifest": "https://raw.githubusercontent.com/Kana-Kuroko/Kannagi-pf2e/master/module.json",
+  "download": "https://github.com/Kana-Kuroko/Kannagi-pf2e/archive/refs/heads/main.zip"
 }
