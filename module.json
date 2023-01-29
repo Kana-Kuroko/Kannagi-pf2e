@@ -1,0 +1,91 @@
+{
+  "id": "kannagi",
+  "title": "Kannagi",
+  "description": "A module for the Kannagi class.",
+  "version": "1.0",
+  "authors": [
+    {"name": "Kana Kuroko"}
+  ],
+  "compatibility": {
+    "minimum": "10.265",
+    "verified": "10.265"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.2.6"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "Kannagi - Feats",
+      "type": "Item",
+      "name": "kannagi-feats",
+      "path": "./packs/kannagi-feats.db",
+      "system": "pf2e",
+      "package": "kannagi",
+      "private": false
+    },
+    {
+      "label": "Kannagi - Spells",
+      "type": "Item",
+      "name": "example-spells",
+      "path": "./packs/kannagi-spells.db",
+      "system": "pf2e",
+      "package": "kannagi",
+      "private": false
+    },
+    {
+      "label": "Kannagi - Class",
+      "type": "Item",
+      "name": "kannagi-class",
+      "path": "./packs/kannagi-class.db",
+      "system": "pf2e",
+      "package": "kannagi",
+      "private": false
+    },
+    {
+      "label": "Kannagi - Actions",
+      "type": "Item",
+      "name": "kannagi-actions",
+      "path": "./packs/kannagi-actions.db",
+      "system": "pf2e",
+      "package": "kannagi",
+      "private": false
+    },
+    {
+      "label": "Kannagi - Class Features",
+      "type": "Item",
+      "name": "kannagi-classfeatures",
+      "path": "./packs/kannagi-classfeatures.db",
+      "system": "pf2e",
+      "package": "kannagi",
+      "private": false
+    },
+    {
+      "label": "Kannagi - Equipment",
+      "type": "Item",
+      "name": "kannagi-equipment",
+      "path": "./packs/kannagi-equipment.db",
+      "system": "pf2e",
+      "package": "kannagi",
+      "private": false
+    }
+	],
+  "flags": {
+      "kannagi": {
+	"kannagi": {
+	 "featTraits": {
+	  "kannagi": "Kannagi"
+         },
+	 "spellTraits": { 
+	  "kannagi": "Kannagi"
+	 }
+    }
+  }
+ }
+}
